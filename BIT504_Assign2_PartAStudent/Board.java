@@ -73,7 +73,8 @@ public class Board {
 	 */
 	public void paint(Graphics g) {
 		//draw the grid
-		g.setColor(Color.gray);
+		// color changed to black
+		g.setColor(Color.black);
 		for (int row = 1; row < GameMain.ROWS; ++row) {          
 			g.fillRoundRect(0, GameMain.CELL_SIZE * row - GRID_WIDHT_HALF,                
 					GameMain.CANVAS_WIDTH - 1, GRID_WIDTH,                
